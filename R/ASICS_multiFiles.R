@@ -61,6 +61,8 @@ ASICS_multiFiles <- function(name.dir, ncores = 1, ...){
   i <- NULL
   res_estimation <- foreach::foreach(i = 1:length(cur_dir),
                                      .packages = "ASICS") %dopar% {
+
+
      path <- file.path(name.dir, cur_dir[i])
      res <- NULL
      res <- suppressWarnings(try(do.call("ASICS", c(path, param.args)),

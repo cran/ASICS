@@ -1,12 +1,12 @@
 Package: ASICS
 Type: Package
 Title: Automatic Statistical Identification in Complex Spectra
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: c(
-    person("Gaëlle", "Lefort", email = "gaelle.lefort@inra.fr", role = c("aut", "cre")),
-    person("Rémi", "Sevien", email = "remi.servien@inra.fr", role = "aut"),
-    person("Patrick", "Tardivel", email = "patrick.tardivel@inra.fr", role = "aut"),
-    person("Nathalie", "Villa-Vialaneix", email = "nathalie.villa-vialaneix@inra.fr", role = "aut"))
+  person("Gaëlle", "Lefort", email = "gaelle.lefort@inra.fr", role = c("aut", "cre")),
+  person("Rémi", "Sevien", email = "remi.servien@inra.fr", role = "aut"),
+  person("Patrick", "Tardivel", email = "patrick.tardivel@inra.fr", role = "aut"),
+  person("Nathalie", "Villa-Vialaneix", email = "nathalie.villa-vialaneix@inra.fr", role = "aut"))
 Description: With a set of pure metabolite spectra, ASICS quantifies 
     metabolites concentration in a complex spectrum. The identification of 
     metabolites is performed by fitting a mixture model to the spectra of the
@@ -19,14 +19,14 @@ License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
-Suggests: knitr, rmarkdown, BiocStyle
+Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2017-10-06 08:33:25 UTC; glefort
+Packaged: 2018-01-23 13:45:26 UTC; glefort
 Author: Gaëlle Lefort [aut, cre],
   Rémi Sevien [aut],
   Patrick Tardivel [aut],
   Nathalie Villa-Vialaneix [aut]
 Maintainer: Gaëlle Lefort <gaelle.lefort@inra.fr>
 Repository: CRAN
-Date/Publication: 2017-10-06 12:03:35 UTC
+Date/Publication: 2018-01-23 13:57:21 UTC

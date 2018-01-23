@@ -2,9 +2,7 @@
 title: "ASICS User's Guide"
 author: "Gaëlle Lefort"
 date: "`r Sys.Date()`"
-output:
-  BiocStyle::html_document2:
-    toc_float: true
+output: rmarkdown::html_vignette
 vignette: |
   %\VignetteIndexEntry{ASICS}
   %\VignetteEngine{knitr::rmarkdown}
